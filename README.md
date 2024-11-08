@@ -18,11 +18,15 @@ the docker-compose.yml is already setup with the `test test test test test test 
 
 Feel free to modifiy to have other accounts
 
-you can run it via 
+you can run it via
 
 ```
 docker compose up
 ```
+
+### NOTE
+
+Note that if you wnat to change the genesis config, after updating genesis.json you'll need to execute `node generate-env.js`
 
 ## blockscout
 
@@ -30,14 +34,12 @@ we use blockscout as the blockchain explorer
 
 We include it as a submodule
 
-
 to run it, you have to have geth running first
 
 ```
 cd blockscout/docker-compose
 docker compose -f geth.yml up
 ```
-
 
 ## have it run on boot
 
