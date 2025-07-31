@@ -6,7 +6,7 @@
         "set-defaults": "^0.0.5",
         "toml": "^3.0.0",
         "wait-on": "^8.0.2",
-        "wrangler": "^3.9.0"
+        "wrangler": "^4.7.1"
         
     },
     "scripts": {
